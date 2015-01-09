@@ -1,0 +1,17 @@
+existing user
+	existing movie : 
+		movie watched : 
+			watched = yes
+			rating = rating from rating.csv
+		movie not watched :
+			get knn users....if seen then yes else no
+			predict from out.csv
+	new movie : //no one has watched		
+		predict 
+			rating from the model
+new uaer
+	existing movie :
+		get knn users
+		if watched then yes, else no
+	new movie :
+		NO
